@@ -3,8 +3,8 @@ contract MyToken is IERC20 {
     using SafeMath for uint256;
     using Address for address;
     
-    string public name = "Mudassir's Token"; //A public variable of our Token Name
-    string public symbol = "TRZ"; //A public variable of our Token Symbol
+    string public name = "barkat Token"; //A public variable of our Token Name
+    string public symbol = "TRX"; //A public variable of our Token Symbol
     uint8 public decimals = 18; //A public varable of our Token Decimals(How much can our token can be divisible into)
     uint256 public cap;
     uint256 public price;

@@ -42,9 +42,9 @@ contract CappedPToken is IERC20 {
     
     
     constructor() public {
-        name = "Islamic Token";
-        symbol = "IST";
-        decimals = 3;
+        name = "barkat Token";
+        symbol = "TRX";
+        decimals = 2;
         contractOwner = msg.sender;
         
         //1 million tokens generated

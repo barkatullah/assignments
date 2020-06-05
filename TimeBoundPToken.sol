@@ -54,7 +54,7 @@ contract TimeBoundPToken is IERC20 {
     
     
     constructor() public {
-        name = "Fiverr Token";
+        name = "barkat Token";
         symbol = "FT";
         decimals = 3;
         contractOwner = msg.sender;
